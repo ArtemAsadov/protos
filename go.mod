@@ -1,5 +1,8 @@
-module protos
+module github.com/ArtemAsadov/protos
 
 go 1.26.2
 
-require github.com/protocolbuffers/protobuf v6.31.1+incompatible // indirect
+require (
+    google.golang.org/protobuf v1.36.5
+    google.golang.org/grpc v1.70.0
+)
